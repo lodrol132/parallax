@@ -58,10 +58,6 @@ background-image: url(../images/layer-2.png)
 
 
 
-.layer-3 {
-    transform: translateZ(10px);
-}
-
 
 
 .layer-4 {
@@ -91,6 +87,10 @@ background-image: url(../images/layer-6.png)
 }
 
 .layer-3 {
+    transform: translateZ(10px);
+    flex-direction: column;
+    gap: 10px;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
