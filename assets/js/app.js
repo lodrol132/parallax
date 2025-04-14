@@ -11,7 +11,7 @@ let yDeg = document.querySelector(".y-deg")
 
 
 window.addEventListener("deviceorientation", (event)=>{
-    let xRotate = event.beta
+    let xRotate = event.alpha
     let yRotate = event.gamma
 
     xDeg.innerHTML = xRotate
