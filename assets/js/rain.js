@@ -91,13 +91,13 @@ rainControllet.onclick = () => {
         ctx.clearRect(0,0,window.innerWidth, window.innerHeight)
         cancelAnimationFrame(animation)
         isAnimationRun = false
-        rainControllet.innerHTML = "Запустить <br/> дождь"
+        rainControllet.innerHTML = "Запустить <br/> дождь (егор) "
         
 
     }
     else {
         animateRain()
-        rainControllet.innerHTML = "Остановить <br/> дождь"
+        rainControllet.innerHTML = "Остановить <br/> дождь((Н)егор)"
     }
 }
 
