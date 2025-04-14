@@ -12,8 +12,14 @@ body {
 
 .layers {
     perspective: 1000px;
-    
+    transform-style: preserve-3d;
+    will-change: transform;
+
+ 
+
+    transform: rotateX(var(--move-y)) rotateY(var(--move-x));
     overflow: hidden;
+    
 }
 
 .layers__container {
