@@ -18,9 +18,9 @@ window.addEventListener("deviceorientation", (event)=>{
     yDeg.innerHTML = yRotate
 
     const styles = {
-        style: `--move-x: ${((event.beta - window.innerWidth) / 2) * 0.005}deg;
-                --move-y: ${((event.gamma - window.innerHeight) / 2) * 0.01}deg;`
-      };
+        style: `--move-x: ${xRotate}deg;
+                --move-y: ${yRotate}deg;`
+      }
       
-      Object.assign(document.documentElement, styles);
+    Object.assign(document.documentElement, styles);
 }, true)
