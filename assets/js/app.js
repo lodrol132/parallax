@@ -1,7 +1,7 @@
 document.addEventListener("mousemove", (event) => {
     const styles = {
-        style: `--move-x: ${(event.clientX - window.innerWidth / 2)*0.005}deg;
-        --move-y: ${(event.clientY - window.innerHeight / 2 )*0.01}deg;`
+        style: `--move-x: ${(event.clientX - window.innerWidth)*0.005}deg;
+        --move-y: ${(event.clientY - window.innerHeight)*0.01}deg;`
     }
     Object.assign(document.documentElement, styles)
 })
